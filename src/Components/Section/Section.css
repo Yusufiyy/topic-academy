@@ -1,0 +1,54 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.section-title {
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    border-color: transparent ;
+    padding: 60px 0px 45px;
+    text-align: center;
+}
+.section-box {
+    display: flex;
+    gap: 30px;
+}
+.section-img {
+    width: 655px;
+}
+.sec-top-title {
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    background-position: center center;
+    border-color: transparent;
+    padding: 0px 0px 20px;
+}
+.sec-foot-title {
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    background-position: center center;
+    border-color: transparent;
+    padding: 0px 0px 20px;
+}
+.sec-top-text, .sec-foot-text {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    background-position: center center;
+    border-color: transparent ;
+}
+.sec-top {
+    margin: 0px 0px 80px;
+}

@@ -1,0 +1,101 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.iframe-box {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.iframe {
+    padding-top: 80px;
+}
+.iframe-title {
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    top: 0px;
+    width: 751px;
+    padding: 80px 0px;
+}
+.iframe-text {
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent ;
+    width: 417px;
+    padding-bottom: 155px;
+}
+.iframe-text-next {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent ;
+    border-style: solid;
+}
+.iframe-btn {
+    width: 300px;
+    padding: 23px 25px;
+    border-radius: 59px;
+    box-shadow: 0px 3px 0px;
+    background-color: rgba(65, 142, 139, 1);
+    color: white;
+    letter-spacing: 0.01em;
+    border: none;
+    margin-top: 2   0px;
+}
+.iframe-img {
+    width: 156px;
+}
+.iframe-box-add {
+    display: flex;
+}
+.iframe-fm-title {
+    font-family: 'Gilroy',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    line-height: 1.23;
+    text-align: center;
+}
+.iframe-fm-text {
+    font-family: 'Gilroy',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.55;
+    text-align: center;
+    padding: 15px 0px;
+}
+.iframe-input {
+    padding: 10px 148px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.iframe-fm-div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.iframe-fm-btn {
+    width: 450px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(65, 142, 139, 1);
+    color: white;
+    font-family: 'Gilroy',Arial,sans-serif;
+}
