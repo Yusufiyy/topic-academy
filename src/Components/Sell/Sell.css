@@ -102,6 +102,7 @@
 @media only screen and (max-width: 968px) {
     .sell-title {
         font-size: 32px;
+        text-align: center;
     }
     .sell-list-div {
         display: flex;
@@ -117,15 +118,18 @@
 @media only screen and (max-width: 767px) {
     .sell-title {
         font-size: 28px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 567px) {
     .sell-title {
         font-size: 23px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 375px) {
     .sell-title {
         font-size: 18px;
+        text-align: center;
     }
 }
