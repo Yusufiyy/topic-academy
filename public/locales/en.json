@@ -1,0 +1,103 @@
+{
+    "header":{
+        "text1":"Korean Language and TOPIK Center located in Tashkent",
+        "text2":"Why Us",
+        "text3":"Results",
+        "text4":"Courses",
+        "text5":"Frequently Asked Questions",
+        "text6":"Contact Us Now"
+    },
+
+    "hero":{
+        "text1":"Start Speaking Korean in 3 Months",
+        "text2":"Opportunity to study at South Korean universities with up to 100% scholarship",
+        "text3":"We help you achieve up to level 6 in TOPIK within 5 months",
+        "text4":"Achieve a high TOPIK level and gain the opportunity to study and work in South Korea",
+        "text5":"SIGN UP FOR A FREE LESSON",
+        "text6":"Sign up for the first free lesson!"
+    },
+
+    "info":{
+        "text1":"TOPIK academy is perfect for you if you:",
+        "text2":"Want to start speaking Korean within a short period",
+        "text3":"Are learning Korean to build your career",
+        "text4":"Want to obtain a TOPIK certificate and win a SCHOLARSHIP to prestigious universities in Korea",
+        "text5":"Plan to go to South Korea to study and work",
+        "text6":"You have an intermediate level of Korean and want to improve your skills",
+        "text7":"You have been studying for many years but haven't achieved the desired results",
+        "text8":"YES, IT'S ME"
+    },
+    "slider":{
+        "text1":"Our students' results up to TOPIK 6"
+    },
+    "section":{
+        "text1":"Opportunity to win up to 100% scholarship for Korean Universities",
+        "text2":"GKS (Global Korean Scholarship) $70,000 Grant",
+        "text3":"The South Korean Government's GKS (Global Korean Scholarship) program, organized by the National Institute for International Education of Korea, provides an opportunity to receive up to 100% full scholarship and monthly stipend for undergraduate and graduate studies in Korea",
+        "text4":"What the GKS grant provides",
+        "text5":"Expenses for travel to and from Korea are covered at the start and end of the program.",
+        "text6":"Upon arrival in Korea, a one-time settlement payment is provided. Amount - 200,000 Korean Won (approximately 157 USD).",
+        "text7":"Language course fees and university tuition are fully covered (only for master's and doctoral students)...more"
+    },
+    "iframe":{
+        "text1":"We help our successful graduates choose a university and win a scholarship",
+        "text2":"TOPIK academy consulting team will assist you in choosing a university, obtaining a visa, and winning a scholarship",
+        "text3":"Sign up for a free consultation to learn more!",
+        "text4":"SUBMIT APPLICATION",
+        "text5":"Leave your details",
+        "text6":"Our specialists will contact you to provide more detailed information",
+        "text7":"Sign up for a free lesson",
+        "text8":"Your name",
+        "text9":"Your phone number"
+    },
+    "sell":{
+        "text1":"Sign up for the course that suits you",
+        "text2":"Intensive",
+        "text3":"Duration: 5 months",
+        "text4":"An intensive course for those who want to deeply learn Korean, 6 days a week for 1.5 hours.",
+        "text5":"REGISTER",
+        "text6":"970,000 UZS /month",
+        "text7":"Regular",
+        "text8":"Regular Korean language classes 3 times a week for 1.5 hours.",
+        "text9":"560,000 UZS /month",
+        "text10":"Individual",
+        "text11":"Individual lessons with a teacher, 3 times a week for 1.5 hours. Flexible schedule and personalized approach.",
+        "text12":"1,800,000 UZS /month"
+    },
+    "main":{
+        "text1":"Why choose TOPIK academy?",
+        "text2":"Professional teachers",
+        "text3":"You will be taught by teachers with over 4 years of experience and TOPIK level above 6",
+        "text4":"Free coworking zones",
+        "text5":"Weekly events",
+        "text6":"Free trial exams",
+        "text7":"Support from curators",
+        "text8":"Consulting services"
+    },
+    "accordions":{
+        "text1":"Do you provide study materials or do I need to find them myself?",
+        "text2":"Do you provide study materials or do I need to find them myself?",
+        "text3":"Do you provide study materials or do I need to find them myself?",
+        "text4":"Of course, you can study with proven guides in these courses. Upon completing our courses, a certificate will be issued.",
+        "text5":"Frequently Asked Questions"
+    },
+    "footer":{
+        "text1":"Do you have any questions?",
+        "text2":"Leave your details, and we will contact you to answer all your questions.",
+        "text3":"Your name",
+        "text4":"Your phone number",
+        "text5":"ASK A QUESTION"
+    },
+    "adress":{
+        "text1":"Why us",
+        "text2":"Results",
+        "text3":"Courses",
+        "text4":"Questions"
+    },
+    "burger": {
+    "text1": "Why Us",
+    "text2": "Results",
+    "text3": "Courses",
+    "text4": "Frequently Asked Questions"
+    }
+}

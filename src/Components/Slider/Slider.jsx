@@ -2,15 +2,17 @@ import React from 'react'
 import '../Slider/Slider.css'
 import Marquee from 'react-fast-marquee'
 import SrImg from '../../assets/slider.svg'
+import { useTranslation } from 'react-i18next'
 
 
 const Slider = () => {
+    const {t,i18n} = useTranslation();
   return (
     <div className="slider">
-        <div className="container">
+        <div className="container slider-container">
             <div className="slider-div">
-                <h2 className="slider-title">O’quvchilarimizning natijalari TOPIK 6 gacha</h2>
-                <Marquee style={{width: "1200px"}} speed={60}>
+                <h2 className="slider-title">{t("slider.text1")}</h2>
+                <Marquee speed={60}>
                     <img src={SrImg} alt="slider-img" className='slider-img' />
                     <img src={SrImg} alt="slider-img" className='slider-img' />
                     <img src={SrImg} alt="slider-img" className='slider-img' />
@@ -18,7 +20,7 @@ const Slider = () => {
                     <img src={SrImg} alt="slider-img" className='slider-img' />
                     <img src={SrImg} alt="slider-img" className='slider-img' />
                 </Marquee>
-                <Marquee style={{width: "1200px"}} speed={60} direction='right'>
+                <Marquee speed={60} direction='right'>
                 <img src={SrImg} alt="slider-img" className='slider-img' />
                     <img src={SrImg} alt="slider-img" className='slider-img' />
                     <img src={SrImg} alt="slider-img" className='slider-img' />
@@ -27,7 +29,7 @@ const Slider = () => {
                     <img src={SrImg} alt="slider-img" className='slider-img' />
                 </Marquee>
             </div>
-        </div>
+        </div>      
     </div>
   )
 }

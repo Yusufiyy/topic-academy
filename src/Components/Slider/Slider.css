@@ -1,10 +1,10 @@
-.container {
+.slider-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 auto;
 }
-.slider-img {
-    width: 300px;
+.slider-div {
+   width: 100%; 
 }
 .slider-title {
     color: #333333;
@@ -16,4 +16,41 @@
     border-color: transparent;
     text-align: center;
     padding: 40px 0px;
+}
+
+@media only screen and (max-width: 968px) {
+    .slider-title {
+        font-size: 33px;
+        max-width: 670px;
+    }
+    .slider-img {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .slider-title {
+        font-size: 29px;
+        max-width: 470px;
+    } 
+    .slider-img {
+        width: 140px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .slider-title {
+        font-size: 24px;
+        max-width: 370px;
+    }
+    .slider-img {
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .slider-title {
+        font-size: 18px;
+        max-width: 210px;
+    }
+    .slider-img {
+        width: 70px;
+    }
 }

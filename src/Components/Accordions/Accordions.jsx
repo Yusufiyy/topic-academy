@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Accordions.css';
+import { useTranslation } from 'react-i18next';
 
 const AccordionItem = ({ title, content, isOpen, toggleAccordion }) => {
   return (
@@ -18,10 +19,11 @@ const AccordionItem = ({ title, content, isOpen, toggleAccordion }) => {
 };
 
 const Accordions = () => {
+  const {t,i18n} = useTranslation();
   const accordionData = [
-    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?", content: " " },
-    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?", content: " " },
-    { title: "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?", content: " " },
+    { title: t("accordions.text1"), content: t("accordions.text4") },
+    { title: t("accordions.text2"), content: t("accordions.text4") },
+    { title: t("accordions.text3"), content: t("accordions.text4") },
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
@@ -32,9 +34,9 @@ const Accordions = () => {
 
   return (
     <div className="accordion">
-      <div className="container">
+      <div className="container accordion-container">
         <div className="accordion-div">
-        <h2 className="accordion-title">Ko'p beriladigan savollar</h2>
+        <h2 className="accordion-title">{t("accordions.text5")}</h2>
           <div className="accordion-div-item">
           {accordionData.map((item, index) => (
             <AccordionItem

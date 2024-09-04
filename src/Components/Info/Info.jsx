@@ -6,21 +6,22 @@ import InThree from '../../assets/info-three.png'
 import InFour from '../../assets/info-four.png'
 import InFive from '../../assets/info-five.png'
 import InSix from '../../assets/info-six.png'
+import { useTranslation } from 'react-i18next'
 
 const Info = () => {
+    const {t,i18n} = useTranslation();
   return (
     <div className="info">
-        <div className="container">
+        <div className="container info-container">
             <div className="info-add">
-            <h2 className="info-title">TOPIK academy aniq siz uchun agar siz:</h2>
+            <h2 className="info-title">{t("info.text1")}</h2>
             <ul className="info-list">
                 <li className="info-item">
                     <div className="info-item-img">
                     <img src={InOne} alt="info-one" className="info-img" />
                     </div>
                     <p className="info-item-text">
-                    <span style={{color: "rgb(95, 172, 169)", fontWeight: "500"}}>Qisqa  </span>
-                    muddat ichida Koreys tilida gapirishni istaysiz
+                    {t("info.text2")}
                     </p>
                 </li>
                 <li className="info-item">
@@ -28,9 +29,7 @@ const Info = () => {
                     <img src={InTwo} alt="info-two" className="info-img" />
                     </div>
                     <p className="info-item-text">
-                    Koreys tili o’rganib o’z 
-                    <span style={{color: "rgb(95, 172, 169)", fontWeight: "500"}}>  karyerangizni  </span>
-                    qurmoqchisiz
+                    {t("info.text3")}
                     </p>
                 </li>
                 <li className="info-item">
@@ -38,9 +37,7 @@ const Info = () => {
                     <img src={InThree} alt="info-three" className="info-img" />
                     </div>
                     <p className="info-item-text">
-                    Topik sertifikatini olib Koreyaning nuiversitefuzli untlariga
-                    <span style={{color: "rgb(95, 172, 169)", fontWeight: "500"}}>  GRANT  </span>
-                    yutmoqchisiz
+                    {t("info.text4")}
                     </p>
                 </li>
                 <li className="info-item">
@@ -48,11 +45,7 @@ const Info = () => {
                     <img src={InFour} alt="info-four" className="info-img" />
                     </div>
                     <p className="info-item-text">
-                    Janubiy Koreya davlatida 
-                    <span style={{color: "rgb(95, 172, 169)", fontWeight: "500"}}>  o’qish  </span>
-                    va
-                    <span style={{color: "rgb(95, 172, 169)", fontWeight: "500"}}>  ishlash  </span>
-                    uchun ketmoqchisiz
+                    {t("info.text5")}
                     </p>
                 </li>
                 <li className="info-item">
@@ -60,8 +53,7 @@ const Info = () => {
                     <img src={InFive} alt="info-five" className="info-img" />
                     </div>
                     <p className="info-item-text">
-                    Koreys tilini o’rta darajda bilasiz va darajangizni 
-                    <span style={{color: "rgb(95, 172, 169)", fontWeight: "500"}}>  oshirmoqchisiz</span>
+                    {t("info.text6")}
                     </p>
                 </li>
                 <li className="info-item">
@@ -69,13 +61,11 @@ const Info = () => {
                     <img src={InSix} alt="info-six" className="info-img" />
                     </div>
                     <p className="info-item-text">
-                    Ko’p yillardan buyon o’qib ham
-                    <span style={{color: "rgb(95, 172, 169)", fontWeight: "500"}}>  natijaga  </span>
-                    chiqa olmayapsiz
+                    {t("info.text7")}
                     </p>
                 </li>
             </ul>
-            <a href="/" className="info-link">HA, BU MEN</a>
+            <a href="/" className="info-link">{t("info.text8")}</a>
             </div>
         </div>
     </div>

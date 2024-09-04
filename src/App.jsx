@@ -9,6 +9,7 @@ import Sell from './Components/Sell/Sell'
 import Main from './Components/Main/Main'
 import Accordions from './Components/Accordions/Accordions'
 import Footer from './Components/Footer/Footer'
+import Adress from './Components/Adress/Adress'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Main/>
       <Accordions/>
       <Footer/>
+      <Adress/>
     </div>
   )
 }

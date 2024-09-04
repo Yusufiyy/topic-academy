@@ -1,0 +1,69 @@
+.burger-menu {
+    position: relative;
+  }
+  
+  .menu-icon {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+  }
+  
+  .menu-icon .line {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-icon.open .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .menu-icon.open .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 0; /* Chap emas, o'ng tarafdan chiqadi */
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 150px;
+    transform: translateX(100%); /* Yashirish uchun translateX */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-content.show {
+    display: block;
+    transform: translateX(0); /* Ko'rsatish uchun translateX ni 0 ga o'zgartiring */
+  }
+  
+  .menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-content ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .menu-content ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  .menu-content ul li a:hover {
+    background-color: #f0f0f0;
+  }
+  

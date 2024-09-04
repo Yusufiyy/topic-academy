@@ -4,9 +4,14 @@
     padding: 0 auto;
 }
 .info-item {
-    width: 400px;
+    max-width: 380px;
+    width: 100%;
     text-align: center;
     padding: 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .info-title {
     color: #000000;
@@ -59,4 +64,74 @@
     color: white;
     letter-spacing: 0.01em;
     text-align: center;
+}
+.info-link:hover,
+.info-link:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 30px transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #82fff3;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+    .info-title {
+        font-size: 33px;
+        text-align: center;
+    }
+    .info-item-text {
+        font-size: 17px;
+    }
+    .info-container {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .info-title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .info-link {
+        width: 280px;
+        font-size: 16px;
+    }
+    .info-item-text {
+        font-size: 16px;
+        max-width: 340px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .info-title {
+        width: 300px;
+        font-size: 23px;
+        text-align: center;
+    }
+    .info-link {
+        width: 270px;
+        font-size: 15px;
+    }
+    .info-item-text {
+        font-size: 15px;
+        max-width: 300px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .info-title {
+        font-size: 16px;
+        text-align: center;
+    }
+    .info-link {
+        width: 260px;
+        font-size: 14px;
+    }
+    .info-item-text {
+        font-size: 13px;
+        max-width: 260px;
+        text-align: center;
+    }
 }

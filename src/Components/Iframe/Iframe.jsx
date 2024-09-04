@@ -4,9 +4,10 @@ import Marquee from 'react-fast-marquee'
 import IfImg from '../../assets/slider.svg'
 import { Button, Modal } from 'antd'
 import axios from 'axios'
-import { Footer } from 'antd/es/layout/layout'
+import { useTranslation } from 'react-i18next'
 
 const Iframe = () => {
+    const {t,i18n} = useTranslation();
     const [open, setOpen] = React.useState(false);
     const [loading, setLoading] = React.useState(true);
     const showLoading = () => {
@@ -45,39 +46,41 @@ const Iframe = () => {
 
   return (
     <div className="iframe">
-        <div className="container">
+        <div className="container iframe-container">
             <div className="iframe-box">
-                <iframe width="1200" height="635" src="https://www.youtube.com/embed/ADdhbjyKLv8?si=LETtOWkpXkkfmWtt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <h3 className="iframe-title">Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda yordam beramiz</h3>
+                <iframe className='iframe-main'  src="https://www.youtube.com/embed/ADdhbjyKLv8?si=LETtOWkpXkkfmWtt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3 className="iframe-title">{t("iframe.text1")}</h3>
                 <div className="iframe-box-add">
                 <div className="iframe-left">
-                <p className="iframe-text"><span style={{color: "rgb(115, 192, 189)", fontWeight: "500"}}>TOPIK academy consulting</span> jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi</p>
+                <p className="iframe-text">{t("iframe.text2")}</p>
                 <div className="iframe-div-text">
-                <p className="iframe-text-next">Ko’proq ma’lumot olish uchun bepul konsultatsiyaga yoziling!</p>
+                <p className="iframe-text-next">{t("iframe.text3")}</p>
                 </div>
                 <>
                 <Button className='iframe-btn' type="primary" onClick={showLoading}>
-                    ARIZA QOLDIRISH
+                {t("iframe.text4")}
                 </Button>
                 <Modal className='iframe-modal'
                     loading={loading}
                     open={open}
                     onCancel={() => setOpen(false)}
+                    footer={null}
                 >
-                    <h3 className='iframe-fm-title'>O'z ma'lumotlaringizni qoldiring</h3>
-                    <p className="iframe-fm-text">Sizga to'liqroq ma'lumot berish uchun mutaxassislarimiz siz bilan bog'lanishadi</p>
+                    <h3 className='iframe-fm-title'>{t("iframe.text5")}</h3>
+                    <p className="iframe-fm-text">{t("iframe.text6")}</p>
                     <form action="" id='myForm' onSubmit={SendMessage}>
                       <div className="iframe-fm-div">
-                    <input className='iframe-input' type="text" id='name' required/>
-                    <input className='iframe-input' type="text" id='surname' required />
-                    <button className='iframe-fm-btn' type="submit" >Send</button>
+                    <input className='iframe-input' type="text" id='name' placeholder={t("iframe.text8")} required/>
+                    <input className='iframe-input' type="tel" id='surname' placeholder={t("iframe.text9")} required />
+                    <button className='iframe-fm-btn' type="submit" >{t("iframe.text7")}</button>
                       </div>
                     </form>
                 </Modal>
                 </>
             </div>
             <div className="iframe-right">
-                <Marquee style={{width: "783px"}} gradient={1} speed={60}>
+     
+                <Marquee  gradient={0.5} speed={60}>
                     <img src={IfImg} alt="iframe-img" />
                     <img src={IfImg} alt="iframe-img" />
                     <img src={IfImg} alt="iframe-img" />
