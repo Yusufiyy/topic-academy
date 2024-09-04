@@ -55,7 +55,27 @@
 .accordion-div {
     width: 100%;
 }
-  
+
+@media only screen and (max-width: 968px) {
+    .accordion-title {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .accordion-title {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .accordion-title {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .accordion-title {
+        font-size: 18px;
+    }
+}
 
 
   

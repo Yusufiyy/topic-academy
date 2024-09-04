@@ -80,7 +80,7 @@ const Iframe = () => {
             </div>
             <div className="iframe-right">
      
-                <Marquee  gradient={0.5} speed={60}>
+                <Marquee className='iframe-marque'  gradient={0.5} speed={60}>
                     <img src={IfImg} alt="iframe-img" />
                     <img src={IfImg} alt="iframe-img" />
                     <img src={IfImg} alt="iframe-img" />

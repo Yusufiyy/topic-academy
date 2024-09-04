@@ -31,3 +31,44 @@
     color: white;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 968px) {
+    .adress-list-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .adress-list-three {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .adress-list-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .adress-list-three {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .adress-list-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .adress-list-three {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .adress-list-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .adress-list-three {
+        display: flex;
+        flex-direction: column;
+    }
+}

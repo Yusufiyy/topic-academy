@@ -5,7 +5,6 @@
     background-color: #d3eaea;
     border-radius: 15px;
     padding: 20px 60px;
-    
 }
 .footer {
     margin: 80px 0px;
@@ -72,4 +71,34 @@
   0% {
     box-shadow: 0 0 0 0 #82fff3;
   }
+}
+
+@media only screen and (max-width: 968px) {
+    .footer-title {
+        font-size: 35px;
+    }
+    .footer-text {
+        display: none;
+    }
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .footer-title {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .footer-title {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .footer-title {
+        font-size: 20px;
+    }
 }

@@ -98,3 +98,34 @@
     line-height: 1.55;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 968px) {
+    .sell-title {
+        font-size: 32px;
+    }
+    .sell-list-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sell-item {
+        width: 340px;
+    }
+    .sell-img {
+        width: 340px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .sell-title {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 567px) {
+    .sell-title {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .sell-title {
+        font-size: 18px;
+    }
+}
