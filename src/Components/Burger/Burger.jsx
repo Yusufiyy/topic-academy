@@ -18,10 +18,10 @@ const Burger = () => {
       </div>
       <div className={`menu-content ${isOpen ? 'show' : ''}`}>
         <ul>
-          <li><a href="#home">{t("burger.text1")}</a></li>
-          <li><a href="#about">{t("burger.text2")}</a></li>
-          <li><a href="#services">{t("burger.text3")}</a></li>
-          <li><a href="#contact">{t("burger.text4")}</a></li>
+          <li><a href="#main-id">{t("burger.text1")}</a></li>
+          <li><a href="#slider-id">{t("burger.text2")}</a></li>
+          <li><a href="#sell-id">{t("burger.text3")}</a></li>
+          <li><a href="#accordion-id">{t("burger.text4")}</a></li>
         </ul>
       </div>
     </div>
