@@ -114,11 +114,17 @@
     .sell-img {
         width: 340px;
     }
+    .sell-list-div {
+        justify-content: center;
+    }
 }
 @media only screen and (max-width: 767px) {
     .sell-title {
         font-size: 28px;
         text-align: center;
+    }
+    .sell-list-div {
+        justify-content: center;
     }
 }
 @media only screen and (max-width: 567px) {
@@ -126,10 +132,16 @@
         font-size: 23px;
         text-align: center;
     }
+    .sell-list-div {
+        justify-content: center;
+    }
 }
 @media only screen and (max-width: 375px) {
     .sell-title {
         font-size: 18px;
         text-align: center;
+    }
+    .sell-list-div {
+        justify-content: center;
     }
 }
