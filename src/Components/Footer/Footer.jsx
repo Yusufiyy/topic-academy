@@ -16,7 +16,7 @@ const Footer = () => {
                     <form action="" className='footer-form'>
                         <input type="text" placeholder={t("footer.text3")} className='footer-input' required />
                         <input type="tel" placeholder={t("footer.text4")} className='footer-input' required />
-                        <button className="footer-btn">{t("footer.text5")}</button>
+                        <a href='#iframe-id' className="footer-btn">{t("footer.text5")}</a>
                     </form>
                 </div>
             </div>

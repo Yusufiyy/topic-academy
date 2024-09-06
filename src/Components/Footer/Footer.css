@@ -55,7 +55,8 @@
     border-radius: 100px;
     font-size: 15px;
     font-weight: 500;
-    height: 55px;
+    padding: 20px 30px 20px 20px;
+    text-align: center;
     text-align: center;
     background-color: rgba(65, 142, 139, 1);
     color: white;

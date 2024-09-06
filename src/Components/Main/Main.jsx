@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const Main = () => {
   const {t,i18n} = useTranslation();
   return (
-    <div className="main">
+    <div className="main" id='main-id'>
         <div className="container -container">
             <div className="main-div">
                 <div className="main-title-div">

@@ -9,23 +9,23 @@ import { useTranslation } from 'react-i18next';
 const Adress = () => {
   const {t,i18n} = useTranslation();
   return (
-    <div className="adress">
+    <div className="adress" id='accordion-id'>
       <div className="container adress-container">
           <ul className="adress-list-one">
           <img src={AdImg} alt="Company logo" className="adress-img" />
           </ul>
             <ul className="adress-list-two">
               <li className="adress-item-two">
-                <a href="/" className="adress-link">{t("adress.text1")}</a>
+                <a href="#main-id" className="adress-link" >{t("adress.text1")}</a>
               </li>
               <li className="adress-item-two">
-                <a href="/" className="adress-link">{t("adress.text2")}</a>
+                <a href="#slider-id" className="adress-link">{t("adress.text2")}</a>
               </li>
               <li className="adress-item-two">
-                <a href="/" className="adress-link">{t("adress.text3")}</a>
+                <a href="#sell-id" className="adress-link">{t("adress.text3")}</a>
               </li>
               <li className="adress-item-two">
-                <a href="/" className="adress-link">{t("adress.text4")}</a>
+                <a href="#accordion-id" className="adress-link">{t("adress.text4")}</a>
               </li>
             </ul>
             <ul className="adress-list-three">

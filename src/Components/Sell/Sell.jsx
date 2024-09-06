@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next'
 const Sell = () => {
     const {t,i18n} = useTranslation();
   return (
-    <div className="sell">
+    <div className="sell" id='sell-id'>
         <div className="container sell-container">
             <div className="sell-div">
                 <div className="sell-title-div">
@@ -26,7 +26,7 @@ const Sell = () => {
                             <p className="sell-two-text" style={{width: "239px"}}>{t("sell.text4")}</p>
                         </div>
                         <div className="sell-three">
-                            <button className="sell-btn-all">{t("sell.text5")}</button>
+                            <a className="sell-btn-all"href="#iframe-id" >{t("sell.text5")}</a>
                             <p className="sell-three-text">{t("sell.text6")}</p>
                         </div>
                     </li>
@@ -42,7 +42,7 @@ const Sell = () => {
                             <p className="sell-two-text" style={{width: "190px"}}>{t("sell.text8")}</p>
                         </div>
                         <div className="sell-three">
-                            <button className="sell-btn-all">{t("sell.text5")}</button>
+                            <a className="sell-btn-all" href="#iframe-id">{t("sell.text5")}</a>
                             <p className="sell-three-text">{t("sell.text9")}</p>
                         </div>
                     </li>
@@ -58,7 +58,7 @@ const Sell = () => {
                             <p className="sell-two-text" style={{width: "301px"}}>{t("sell.text11")}</p>
                         </div>
                         <div className="sell-three">
-                            <button className="sell-btn-all">{t("sell.text5")}</button>
+                            <a className="sell-btn-all" href="#iframe-id">{t("sell.text5")}</a>
                             <p className="sell-three-text">{t("sell.text12")}</p>
                         </div>
                     </li>

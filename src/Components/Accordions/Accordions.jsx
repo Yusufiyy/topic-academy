@@ -33,7 +33,7 @@ const Accordions = () => {
   };
 
   return (
-    <div className="accordion">
+    <div className="accordion" id='accordion'>
       <div className="container accordion-container">
         <div className="accordion-div">
         <h2 className="accordion-title">{t("accordions.text5")}</h2>

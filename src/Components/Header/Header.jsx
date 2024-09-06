@@ -18,10 +18,10 @@ const Header = () => {
                 <p className="header-text">{t("header.text1")}</p>
             </div>
             <ul className="header-middle">
-                <li className="header-item"><a href="" className="header-link">{t("header.text2")}</a></li>
-                <li className="header-item"><a href="" className="header-link">{t("header.text3")}</a></li>
-                <li className="header-item"><a href="" className="header-link">{t("header.text4")}</a></li>
-                <li className="header-item"><a href="" className="header-link">{t("header.text5")}</a></li>
+                <li className="header-item"><a href="#main-id" className="header-link">{t("header.text2")}</a></li>
+                <li className="header-item"><a href="#slider-id" className="header-link">{t("header.text3")}</a></li>
+                <li className="header-item"><a href="#sell-id" className="header-link">{t("header.text4")}</a></li>
+                <li className="header-item"><a href="#accordion-id" className="header-link">{t("header.text5")}</a></li>
             </ul>
             <div className="header-right">
                 <p className="header-call">+998 (33) 306 0098</p>

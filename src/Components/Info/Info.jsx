@@ -65,7 +65,7 @@ const Info = () => {
                     </p>
                 </li>
             </ul>
-            <a href="/" className="info-link">{t("info.text8")}</a>
+            <a href="#iframe-id" className="info-link">{t("info.text8")}</a>
             </div>
         </div>
     </div>

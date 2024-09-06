@@ -31,7 +31,7 @@ const Hero = () => {
                     </li>
                 </div>
                 <div className="hero-foot">
-                    <li className="hero-foot-item"><a href="/" className="hero-link">{t("hero.text5")}</a></li>
+                    <li className="hero-foot-item"><a href="#iframe-id" className="hero-link">{t("hero.text5")}</a></li>
                     <li className="hero-foot-item"><p className="hero-foot-text">{t("hero.text6")}</p></li>
                 </div>
             </div>

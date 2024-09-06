@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next'
 const Slider = () => {
     const {t,i18n} = useTranslation();
   return (
-    <div className="slider">
+    <div className="slider" id='slider-id'>
         <div className="container slider-container">
             <div className="slider-div">
                 <h2 className="slider-title">{t("slider.text1")}</h2>
