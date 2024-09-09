@@ -33,17 +33,17 @@
     display: none;
     position: absolute;
     top: 35px;
-    right: 0; /* Chap emas, o'ng tarafdan chiqadi */
+    right: 0;
     background-color: white;
     border: 1px solid #ccc;
     width: 150px;
-    transform: translateX(100%); /* Yashirish uchun translateX */
+    transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
   }
   
   .menu-content.show {
     display: block;
-    transform: translateX(0); /* Ko'rsatish uchun translateX ni 0 ga o'zgartiring */
+    transform: translateX(0); 
   }
   
   .menu-content ul {
@@ -66,4 +66,15 @@
   .menu-content ul li a:hover {
     background-color: #f0f0f0;
   }
+  .lng-select-br {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+}
+.lng-option-br {
+    font-size: 14px;
+    padding: 8px;
+}
   

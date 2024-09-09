@@ -4,8 +4,7 @@
         "text2":"Nega biz",
         "text3":"Natijalar",
         "text4":"Kurslar",
-        "text5":"Ko’p beriladigan savollar",
-        "text6":"Hoziroq bog’laning"
+        "text5":"Savollar"
     },
     "hero":{
         "text1":"3 oyda Koreys tilida gapirishni boshlang",
@@ -46,7 +45,8 @@
         "text6":"Sizga to'liqroq ma'lumot berish uchun mutaxassislarimiz siz bilan bog'lanishadi",
         "text7":"Bepul darsga yozilish",
         "text8":"Ismingiz",
-        "text9":"Raqamingiz"
+        "text9":"Raqamingiz",
+        "text10":"Yuborilmoqda..."
     },
     "sell":{
         "text1":"O’zingizga mos kursga ro’yxatdan o’ting",
@@ -60,7 +60,7 @@
         "text9":"560.000 so’m /oy",
         "text10":"Individual",
         "text11":"O’qituvchidan individual dars olmoqchi bo’lganlar uchun haftada 3 kun 1.5 soatdan darslar. Moslashuvchan grafik va individual yondashuv.",
-        "text12":"1.800.000 so’m /oy"
+        "text12":"999.000 so’m /oy"
     },
     "main":{
         "text1":"Nima uchun aynan TOPIK academy?",
@@ -73,18 +73,20 @@
         "text8":"Konsulting xizmatlar"
     },
     "accordions":{
-        "text1":"O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
-        "text2":"O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
-        "text3":"O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+        "text1":"Ko'p beriladigan savollar",
+        "text2":"Dars soatlari qaysi vaqtda va kutubxonalar mavjudmi?",
+        "text3":"Ustozlar bilan darsdan boshqa vaqtda shug'ullanish ukinmi?",
         "text4":"Albatta, siz ushbu kurslarda tajribadan o'tgan qo'llanmalar orqali ta'lim olishingiz mumkin. Bizning o'quv kurslarimizni tugatsangiz, sertifikat beriladi.",
-        "text5":"Ko'p beriladigan savollar"
+        "text5":"Dars vaqtlari kelishilgan soatlarda o'tiladi va kutubxonalar avjud.",
+        "text6":"Ha albatta, bizning ustozlar 8:00 dan 18:00 gacha o'quv markazda bo'ladilar."
     },
     "footer":{
         "text1":"Savollaringiz qoldimi?",
         "text2":"Ma’lumotlaringizni qoldiring siz bilan bog’lanib barcha savollaringizga javob beramiz.",
         "text3":"Ismingiz",
         "text4":"Raqamingiz",
-        "text5":"SAVOL BERISH"
+        "text5":"SAVOL BERISH",
+        "text6":"Yuborilmoqda..."
     },
     "adress":{
         "text1":"Nega biz",

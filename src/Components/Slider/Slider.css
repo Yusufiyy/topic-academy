@@ -2,6 +2,10 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .slider-div {
    width: 100%; 
@@ -22,6 +26,7 @@
     .slider-title {
         font-size: 33px;
         max-width: 670px;
+        text-align: center;
     }
     .slider-img {
         width: 200px;

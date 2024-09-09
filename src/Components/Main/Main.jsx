@@ -6,7 +6,7 @@ const Main = () => {
   const {t,i18n} = useTranslation();
   return (
     <div className="main" id='main-id'>
-        <div className="container -container">
+        <div className="container main-container">
             <div className="main-div">
                 <div className="main-title-div">
                     <h2 className="main-title">{t("main.text1")}</h2>

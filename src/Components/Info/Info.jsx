@@ -9,7 +9,7 @@ import InSix from '../../assets/info-six.png'
 import { useTranslation } from 'react-i18next'
 
 const Info = () => {
-    const {t,i18n} = useTranslation();
+    const {t} = useTranslation();
   return (
     <div className="info">
         <div className="container info-container">
@@ -65,7 +65,7 @@ const Info = () => {
                     </p>
                 </li>
             </ul>
-            <a href="#iframe-id" className="info-link">{t("info.text8")}</a>
+            <a href="#footer-id" className="info-link">{t("info.text8")}</a>
             </div>
         </div>
     </div>

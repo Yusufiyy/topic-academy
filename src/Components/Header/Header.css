@@ -70,18 +70,18 @@
  }
 
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 968px){
     .header-link {
         font-size: 15px;
     }
     .header-call {
-        font-size: 15px;
+        display: none;
     }
     .header-text {
         display: none;
     }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 767px){
     .header-link {
         display: none;
     }
@@ -97,9 +97,13 @@
     .header-item-x {
         display: block;
         z-index: 1;
-        transform: translateX(-80px);
+        transform: translate(-8px);
+    }
+    .lng-div {
+        display: none;
     }
 }
+
 
 
 

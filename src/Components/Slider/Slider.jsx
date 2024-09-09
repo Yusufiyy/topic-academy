@@ -10,8 +10,8 @@ const Slider = () => {
   return (
     <div className="slider" id='slider-id'>
         <div className="container slider-container">
+        <h2 className="slider-title">{t("slider.text1")}</h2>
             <div className="slider-div">
-                <h2 className="slider-title">{t("slider.text1")}</h2>
                 <Marquee speed={60}>
                     <img src={SrImg} alt="slider-img" className='slider-img' />
                     <img src={SrImg} alt="slider-img" className='slider-img' />

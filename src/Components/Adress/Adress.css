@@ -36,6 +36,7 @@
     .adress-list-two {
         display: flex;
         flex-direction: column;
+        align-items: start;
     }
     .adress-list-three {
         display: flex;

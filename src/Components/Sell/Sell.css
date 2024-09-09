@@ -1,17 +1,18 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 .sell-div {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 .sell-list-div {
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .sell-title {
     color: #333333;
@@ -19,14 +20,15 @@
     font-family: 'Gilroy',Arial,sans-serif;
     line-height: 1.55;
     font-weight: 500;
-    padding: 55px;
+    padding: 25px;
 }
 .sell-img {
-    width: 400px;
-    height: 225px;
+    width: 350px;
+    height: 180px;
+    margin: 0 auto;
 }
 .sell-item {
-    width: 360px;
+    width: 350px;
     height: 520px;
     background-color: #f6f3f3;
     border-radius: 45px;  
@@ -71,7 +73,7 @@
     font-weight: 500;
 }
 .sell-btn-all{
-    width: 200px;
+    width: 180px;
     padding: 15px ; 
     border-radius: 59px;
     box-shadow: 0px 3px 0px;
@@ -79,6 +81,8 @@
     color: white;
     letter-spacing: 0.01em;
     border: none;
+    text-align: center;
+    font-size: 14px;
 }
 .sell-btn-all:hover,
 .sell-btn-all:focus {
@@ -99,22 +103,30 @@
     font-weight: 600;
 }
 
+@media only screen and (max-width: 1200px) {
+    .sell-title {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .sell-list-div {
+        display: flex;
+        justify-content: center;
+    }
+}
 @media only screen and (max-width: 968px) {
     .sell-title {
         font-size: 32px;
         text-align: center;
     }
+    .sell-btn-all {
+        width: 180px;
+    }
+    .sell-three-text {
+        font-size: 14px;
+    }
     .sell-list-div {
         display: flex;
-        flex-wrap: wrap;
-    }
-    .sell-item {
-        width: 340px;
-    }
-    .sell-img {
-        width: 340px;
-    }
-    .sell-list-div {
         justify-content: center;
     }
 }
@@ -123,25 +135,16 @@
         font-size: 28px;
         text-align: center;
     }
-    .sell-list-div {
-        justify-content: center;
-    }
 }
 @media only screen and (max-width: 567px) {
     .sell-title {
         font-size: 23px;
         text-align: center;
     }
-    .sell-list-div {
-        justify-content: center;
-    }
 }
 @media only screen and (max-width: 375px) {
     .sell-title {
         font-size: 18px;
         text-align: center;
-    }
-    .sell-list-div {
-        justify-content: center;
     }
 }

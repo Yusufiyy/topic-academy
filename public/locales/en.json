@@ -4,8 +4,7 @@
         "text2":"Why Us",
         "text3":"Results",
         "text4":"Courses",
-        "text5":"Frequently Asked Questions",
-        "text6":"Contact Us Now"
+        "text5":"Questions"
     },
 
     "hero":{
@@ -48,7 +47,8 @@
         "text6":"Our specialists will contact you to provide more detailed information",
         "text7":"Sign up for a free lesson",
         "text8":"Your name",
-        "text9":"Your phone number"
+        "text9":"Your phone number",
+        "text10":"Sending..."
     },
     "sell":{
         "text1":"Sign up for the course that suits you",
@@ -62,7 +62,7 @@
         "text9":"560,000 UZS /month",
         "text10":"Individual",
         "text11":"Individual lessons with a teacher, 3 times a week for 1.5 hours. Flexible schedule and personalized approach.",
-        "text12":"1,800,000 UZS /month"
+        "text12":"999,000 UZS /month"
     },
     "main":{
         "text1":"Why choose TOPIK academy?",
@@ -74,19 +74,21 @@
         "text7":"Support from curators",
         "text8":"Consulting services"
     },
-    "accordions":{
-        "text1":"Do you provide study materials or do I need to find them myself?",
-        "text2":"Do you provide study materials or do I need to find them myself?",
-        "text3":"Do you provide study materials or do I need to find them myself?",
-        "text4":"Of course, you can study with proven guides in these courses. Upon completing our courses, a certificate will be issued.",
-        "text5":"Frequently Asked Questions"
+    "accordions": {
+        "text1": "Do you provide study materials or should I find them myself?",
+        "text2": "What are the class hours and are libraries available?",
+        "text3": "Is it possible to work with teachers outside of class time?",
+        "text4": "Of course, you can study with proven guides in these courses. Upon completing our courses, a certificate will be issued.",
+        "text5": "Classes are held at the agreed times, and libraries are available.",
+        "text6": "Yes, of course, our teachers will be at the learning center from 8:00 AM to 6:00 PM."
     },
     "footer":{
         "text1":"Do you have any questions?",
         "text2":"Leave your details, and we will contact you to answer all your questions.",
         "text3":"Your name",
         "text4":"Your phone number",
-        "text5":"ASK A QUESTION"
+        "text5":"ASK A QUESTION",
+        "text6":"Sending..."
     },
     "adress":{
         "text1":"Why us",

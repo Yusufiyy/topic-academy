@@ -40,17 +40,13 @@
     background: #56b4b0;
     width: 35px;
     height: 35px;
-    font-size: 50px;
+    font-size: 48px;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     transition: 0.3s;
-    &.active {
-      transform: rotate(45deg);
-    }
-
 }
 .accordion-div {
     width: 100%;
@@ -60,20 +56,40 @@
     .accordion-title {
         font-size: 32px;
     }
+    .accordion-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 44px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .accordion-title {
         font-size: 28px;
+    }
+    .accordion-icon {
+        width: 27px;
+        height: 27px;
+        font-size: 35px;
     }
 }
 @media only screen and (max-width: 576px) {
     .accordion-title {
         font-size: 23px;
     }
+    .accordion-icon {
+        width: 22px;
+        height: 22px;
+        font-size: 29px;
+    }
 }
 @media only screen and (max-width: 375px) {
     .accordion-title {
         font-size: 18px;
+    }
+    .accordion-icon {
+        width: 14px;
+        height: 14px;
+        font-size: 12px;
     }
 }
 

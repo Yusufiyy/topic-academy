@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 import Burger from '../Burger/Burger'
 
 const Header = () => {
+    const lg = localStorage.getItem('i18nextLng')
     const {t,i18n} = useTranslation();
     const handleChange = (e) => {
         const selectedLanguage = e.target.value;
@@ -26,12 +27,13 @@ const Header = () => {
             <div className="header-right">
                 <p className="header-call">+998 (33) 306 0098</p>
                 <li className="header-item-x"><Burger className="burger" /></li>
-                <p className="header-call">{t("header.text6")}</p>
-                <select className='lng-select' name="lng" id="lng" onChange={handleChange}>
+                <div className="lng-div">
+                <select className='lng-select' name="lng" id="lng" onChange={handleChange} value={lg}>
                     <option className='lng-option' value="uz">Uzbek</option>
                     <option className='lng-option' value="en">English</option>
                     <option className='lng-option' value="ru">Russian</option>
                 </select>
+                </div>
             </div>
         </div>
     </div>
