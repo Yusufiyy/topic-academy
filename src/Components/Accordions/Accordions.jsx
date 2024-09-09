@@ -40,7 +40,7 @@ const Accordions = () => {
     <div className="accordion" id='accordion'>
       <div className="container accordion-container">
         <div className="accordion-div">
-        <h2 className="accordion-title">{t("accordions.text5")}</h2>
+        <h2 className="accordion-title">{t("accordions.text0")}</h2>
           <div className="accordion-div-item">
           {accordionData.map((item, index) => (
             <AccordionItem

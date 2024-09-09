@@ -1,8 +1,3 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 auto;
-}
 
 .iframe-box {
     align-items: center;
@@ -12,7 +7,7 @@
 }
 
 .iframe {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .iframe-left {
@@ -31,7 +26,7 @@
     line-height: 1.55;
     font-weight: 500;
     top: 0px;
-    padding: 80px 0px;
+    padding: 20px 0px;
 }
 
 .iframe-text {
@@ -206,7 +201,7 @@
 }
 @media only screen and (max-width: 576px) {
     .iframe-main {
-        width: 320px;
+        width: 360px;
         height: 245px;
     }
     .iframe-title {
@@ -225,7 +220,7 @@
 }
 @media only screen and (max-width: 375px) {
     .iframe-main {
-        width: 300px;
+        width: 340px;
         height: 180px;
     }
     .iframe-title {

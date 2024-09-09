@@ -75,12 +75,13 @@
         "text8":"Consulting services"
     },
     "accordions": {
-        "text1": "Do you provide study materials or should I find them myself?",
-        "text2": "What are the class hours and are libraries available?",
-        "text3": "Is it possible to work with teachers outside of class time?",
-        "text4": "Of course, you can study with proven guides in these courses. Upon completing our courses, a certificate will be issued.",
-        "text5": "Classes are held at the agreed times, and libraries are available.",
-        "text6": "Yes, of course, our teachers will be at the learning center from 8:00 AM to 6:00 PM."
+        "text1": "What study materials are used during the learning process?",
+        "text2": "What time are the classes held, and are there any libraries available?",
+        "text3": "Is it possible to work with the teachers outside of class hours?",
+        "text4": "Of course, you can learn through the proven materials in these courses. Upon completing our courses, you will receive a certificate.",
+        "text5": "Classes are held at agreed times, and libraries are available.",
+        "text6": "Yes, of course, our teachers are available at the learning center from 8:00 AM to 6:00 PM.",
+        "text0": "Frequently Asked Questions"
     },
     "footer":{
         "text1":"Do you have any questions?",

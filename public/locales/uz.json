@@ -33,7 +33,7 @@
         "text3":"Janubiy Koreya hukumatining stipendiya dasturi (GKS) Koreyaning Xalqaro ta'lim bo'yicha milliy instituti tomonidan xorijiy talabalarning Koreyada bakalavr va magistratura bosqichida 100% gacha to’liq grant va oylik stipendiya olish imkoniyatingiz bor",
         "text4":"GKS granti sizga nima beradi",
         "text5":"Dastur boshlanganida va tugaganida Koreyaga borish hamda Koreyadan qaytish xarajatlari qoplanadi.",
-        "text6":"Koreyaga yetib borganda joylashib olish uchun bir martalik to'lovberiladi. Miqdori - 200 000 Koreya voni (taxminan 157 AQSh dollari).",
+        "text6":"Koreyaga yetib borganda joylashib olish uchun bir martalik to'lov beriladi. Miqdori - 200 000 Koreya voni (taxminan 157 AQSh dollari).",
         "text7":"Til kursi va universitetning kontrak to'lovi to'liq to'lab beriladi (faqat magistr va doktorantlarga)...ko’proq"
     },
     "iframe":{
@@ -73,12 +73,13 @@
         "text8":"Konsulting xizmatlar"
     },
     "accordions":{
-        "text1":"Ko'p beriladigan savollar",
+        "text1":"O'quv jarayonida qanday qo'llanmalar ishlatiladimi?",
         "text2":"Dars soatlari qaysi vaqtda va kutubxonalar mavjudmi?",
         "text3":"Ustozlar bilan darsdan boshqa vaqtda shug'ullanish ukinmi?",
         "text4":"Albatta, siz ushbu kurslarda tajribadan o'tgan qo'llanmalar orqali ta'lim olishingiz mumkin. Bizning o'quv kurslarimizni tugatsangiz, sertifikat beriladi.",
         "text5":"Dars vaqtlari kelishilgan soatlarda o'tiladi va kutubxonalar avjud.",
-        "text6":"Ha albatta, bizning ustozlar 8:00 dan 18:00 gacha o'quv markazda bo'ladilar."
+        "text6":"Ha albatta, bizning ustozlar 8:00 dan 18:00 gacha o'quv markazda bo'ladilar.",
+        "text0":"Ko'p beriladigan savollar"
     },
     "footer":{
         "text1":"Savollaringiz qoldimi?",

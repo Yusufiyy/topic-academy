@@ -59,10 +59,7 @@
     font-weight: 500;
     background-position: center center;
     border-color: transparent;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    text-align: center;
 }
 .sec-top {
     margin: 0px 0px 40px;
